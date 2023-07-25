@@ -273,10 +273,12 @@ while (sigue == 1):
 # In[75]:
 
 
-n = 100
+n = 200
 while(n<=300):
-    if (n % 6 == 0):
+    if (n % 3 == 0 | n % 6 == 0):
         print('El número es: ', str(n))
         break
     n += 1
 
+
+# %%
